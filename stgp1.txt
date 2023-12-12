@@ -1,0 +1,36 @@
+============================ Git commands =============================================
+==>To create user name 
+	git config -- global user.name "deepika"
+
+==>To create email 
+	git config -- global user.email "emailid@gmail.com"
+==>To see list of configurations
+	git config -- global --list
+Git uses 3 components while working on local repository
+1.Working directory / working space -- working directory is a folder where files are created . Files intially present here 
+is known as untracked files
+2.Staging Area -- is the intermediate buffer zone in the git, into which files are sent for indexing purpose.
+Files present in this staging area is called as indexed files
+3.Local Repository -- Local repository is the place where version controlling happens . Files present in local repository 
+is known as committed files
+
+1. To create the folder in git repositoy
+	git init 
+ ( gitinit will create a hidden folder where it stores all the configurations neccessary for git to run)
+2.to sent file from working directory to staging area
+	git add filename
+  to send multiple files from working directory to staging area
+	git add file1 file2 file3.....
+ to send all files from working directory to staging area
+	git add.
+ ("." represents present working directory(folder))
+3. to remove files from staging area to untracked section
+	git rm -- cache filename
+		(or)
+	git reset filename
+4.to send files from staging to local repository
+	git commit -m "some messsage"
+5. to see the status of the files present in staging and untracked area
+	git status
+6. to see commit history of local repository
+	git log
