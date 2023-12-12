@@ -1,0 +1,21 @@
+================================================Git Class 1 =====================================================
+Virtual controlling tool - git
+
+* virtual controlling system is a source code where team members can checkin their code into the remote server
+  It accepts the code from all the team members and integrates it into single project.
+  Now if one developer download the data whole team code will be downloaded not alone their code
+*Virtual controlling system preservers the older and later versions of code , so that team members can toggle 
+ between any versions 
+*Virtual controlling system tracks what changes are made by who and at what time 
+
+--> Virtual controlling system classified into 2 types :
+	1. Centralised Virtual controlling system 
+	2. Distributed Virtual controlling system 
+
+1. Centralised Virtual controlling system :
+	there will be a remote server in which team members check in their code into it and virtual controlling 
+happens on the remote server on every team members code. tool used here is SVN
+2. Distributed Virtual controlling system :
+	We will have local repositories where individual team members will check in code into it and virtual 
+controlling happens on the individual data and later individal team members can check in code into the remote server.
+Here virtual controlling happens for all the team members files . Tool used here is Github
